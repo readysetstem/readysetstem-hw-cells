@@ -1,0 +1,34 @@
+HOWTO PROGRAM LED MATRIX
+
+SETUP
+
+    - Attach VCC (3.3V) and GND to LED Matrix
+    - Hold program pins to PROG pad.  Pin one on ribbon cable connector (arrow)
+      is Pin one on PROG pads.
+    - Connector must be held in place while running commands.
+    - AVRISP programmer LED will be green when programmer is connected.
+
+EASY WAY
+
+    - Run prog.bat
+    - Part should be erased, fused, and programmed, with success reported for
+      each.
+    - On reset, device should display scrolling vertical/horizontal bars
+
+HARD WAY
+
+    - From AtmelStudio Project, Tools -> Device Programming
+        - Interface Settings:
+            - set rate to 125kHz or lower
+            - MUST HIT "SET" to CHANGE!
+        - Fuses:
+            - Change CLKDIV8 to unchecked.
+            - All other settings remain the same.
+            - Register should read:
+                - EXTENDED:	0xFF
+                - HIGH:		0xDF
+                - LOW:		0xEE
+            - Program fuses (with verify checked).
+        - Memories:
+            - Program part (with verify checked).
+    - On reset, device should display scrolling vertical/horizontal bars
