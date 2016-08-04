@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -165,9 +165,9 @@
 <text x="8.89" y="0.508" size="1.27" layer="21" font="vector">MATRIX BOTTOM</text>
 <text x="1.905" y="17.653" size="1.27" layer="22" font="vector" rot="MR0">SI</text>
 <rectangle x1="0" y1="17.272" x2="2.286" y2="19.304" layer="43"/>
-<text x="12.954" y="21.59" size="0.8128" layer="21" font="vector" align="center">(c) 2015
-RaspberrySTEM</text>
-<text x="9.652" y="23.368" size="0.8128" layer="21" font="vector">Rev-01b</text>
+<text x="12.954" y="21.59" size="0.8128" layer="21" font="vector" align="center">(c) 2016
+Ready Set STEM</text>
+<text x="9.652" y="23.368" size="0.8128" layer="21" font="vector">Rev-02a</text>
 <wire x1="26.924" y1="18.161" x2="25.908" y2="16.383" width="0.2032" layer="22"/>
 <wire x1="26.924" y1="18.161" x2="25.908" y2="19.812" width="0.2032" layer="22"/>
 <wire x1="0" y1="0" x2="31.75" y2="0" width="0.0254" layer="20"/>

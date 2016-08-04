@@ -1,4 +1,4 @@
-raspberrystem-hw-cells
+readysetstem-hw-cells
 ======================
 
-raspberrySTEM(TM) Cells hardware schematics and related documents
+Ready Set STEM(TM) Cells hardware schematics and related documents
