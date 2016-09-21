@@ -166,7 +166,7 @@
 <rectangle x1="0" y1="17.018" x2="2.159" y2="19.05" layer="43"/>
 <text x="12.7" y="21.336" size="0.8128" layer="21" font="vector" align="center">(c) 2016
 Ready Set STEM</text>
-<text x="9.398" y="23.114" size="0.8128" layer="21" font="vector">Rev-02a</text>
+<text x="9.398" y="23.114" size="0.8128" layer="21" font="vector">Rev-02b</text>
 <wire x1="26.416" y1="17.907" x2="25.4" y2="16.129" width="0.2032" layer="22"/>
 <wire x1="26.416" y1="17.907" x2="25.4" y2="19.558" width="0.2032" layer="22"/>
 <wire x1="0" y1="0" x2="31.242" y2="0" width="0.0254" layer="20"/>

@@ -152,7 +152,7 @@
 <text x="5.08" y="0.635" size="1.016" layer="22" font="vector" rot="MR270" align="center-left">INT2</text>
 <text x="9.4742" y="-0.4318" size="0.7112" layer="21" font="vector" rot="SR180">(c) 2016
 Ready Set STEM</text>
-<text x="8.636" y="12.954" size="0.8128" layer="21" font="vector" rot="SR180">Rev-01a</text>
+<text x="8.636" y="12.954" size="0.8128" layer="21" font="vector" rot="SR180">Rev-01b</text>
 <wire x1="1.397" y1="6.604" x2="3.048" y2="5.842" width="0.381" layer="22"/>
 <wire x1="1.397" y1="6.604" x2="3.048" y2="7.366" width="0.381" layer="22"/>
 <wire x1="6.858" y1="7.62" x2="6.858" y2="12.065" width="0.381" layer="22"/>
