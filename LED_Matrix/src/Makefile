@@ -47,10 +47,10 @@ clean:
 	rm -f $(ELF) $(HEX)
 
 help:
-	@echo Make target rules:
-	@echo     all (default)     Build HEX image
-	@echo     fuses             Burn fuses
-	@echo     verify_fuses      Verify fuses are correct
-	@echo     install           Flash HEX image to target
-	@echo     safeinstall       Verify fuses and then install
-	@echo     fullinstall       Burn fuses and then install
+	@echo "Make target rules:"
+	@echo "    all (default)     Build HEX image"
+	@echo "    fuses             Burn fuses"
+	@echo "    verify_fuses      Verify fuses are correct"
+	@echo "    install           Flash HEX image to target"
+	@echo "    safeinstall       Verify fuses and then install"
+	@echo "    fullinstall       Burn fuses and then install"
