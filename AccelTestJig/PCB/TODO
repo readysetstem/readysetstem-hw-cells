@@ -1,0 +1,7 @@
+- 5V driving LEDs means that 3.3V GPIO pins can't shutoff LED completely when
+  high.  Workaround: turn off LEDs by making pin an Input.
+- FIXME: Button is wired wrong.  Cut GPIO trace and wire to diagonally opposite pin.
+- Pass/fail LEDs would be MUCH better on bottom edge of board (easier to solder, easier to see
+  when board is sitting level.
+- Silkscreen i(copyright/name/rev) obscured by parts 
+
